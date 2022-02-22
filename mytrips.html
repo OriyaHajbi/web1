@@ -1,0 +1,39 @@
+<html>
+<head>
+    <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body name="title" style="text-align: center;">
+    <h1 >My Trips To South America</h1>
+    <p>by Oriya Hajbi 313220469</p>
+</body>
+
+<button class="btn"><i class="fa fa-home"></i> Home</button>
+
+<select class="btn" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+    <option value="peru.html">Peru</option>
+  <option value="brazil.html">Brazil</option>
+  <option value="Mexico.html">Mexico</option>
+  <option value="Bolivia.html">bolivia</option>
+  <option value="costa rica.html">Costa Rica</option>
+  </select>
+
+
+<body name="all World Picture" style="text-align: center;">
+    <br/><br/>
+    <img class="maping" src="worldmap.jpg" usemap="#maping" width="50%">
+    
+    <map name="maping">
+        <area shape="rect" coords="80,170,100,270" href="Mexico.html" alt="Mexico" title="Mexico">
+        <area shape="rect" coords="120,190,140,290" href="costa rica.html" alt="Costa Rica" title="Costa Rica">
+        <area shape="rect" coords="150,210,160,310" href="peru.html" alt="Peru" title="Peru">
+        <area shape="rect" coords="165,295,180,330" href="bolivia.html" alt="Bolivia" title="Bolivia">
+        <area shape="rect" coords="170,245,220,300" href="brazil.html" alt="Brazil" title="Brazil">
+    </map>
+</body>
+
+
+</html>
+
